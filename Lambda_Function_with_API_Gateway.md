@@ -1,12 +1,12 @@
-# How to Return AWS API Gateway and Lambda
+# How to Expose Lambda Function with API Gateway
 
-### Do you need to return an HTML page or Json output or prometheus scrapped metrics from your API Gateway & Lambda? This Page is for you.
+### Do you need to return an HTML page, Json output, prometheus scrapped metrics, etc. from your API Gateway & Lambda? This Page is for you.
 Reading time: 5 minutes
 
 #### Why used API Gateway and Lambda? 
 I was recently working with client where they want display custom HTML page.
 The HTML page shows the data processed from particular database and display it in tabular format. 
-Client only want to fetched data from database when its required and also they don't want to maintain any servers for processing.
+Client only want to fetched data from database when its required and also they don't want to maintain any servers for processing and hosting site.
 So, We decided to create an API Gateway and Lambda function to serve our needs. 
 
 ##### Overview
